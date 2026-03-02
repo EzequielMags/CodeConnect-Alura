@@ -112,17 +112,7 @@ VITE_API_URL="http://localhost:3000"
 
 ---
 
-## Como versionar no Git / enviar para o GitHub
 
-1. Confirme que o arquivo `.gitignore` está na **raiz** deste diretório (mesmo nível de `CodeConnect-BackEnd` e `CodeConnect-FrontEnd`).
-2. No terminal, na raiz do projeto, rode:
-
-```bash
-git add .
-git commit -m "chore: inicializa projeto CodeConnect (API + front)"
-git branch -M main
-git remote add origin <URL_DO_SEU_REPOSITORIO>
-git push -u origin main
 ```
 
 Substitua `<URL_DO_SEU_REPOSITORIO>` pela URL do repositório que você criou no GitHub.
