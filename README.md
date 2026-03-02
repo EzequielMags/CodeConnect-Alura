@@ -2,12 +2,12 @@
 
 Este repositório contém **dois projetos**:
 
-- **Backend (`4870--api-com-docker`)**: API construída com NestJS, usando Postgres via Docker.
+- **Backend (`CodeConnect-BackEnd`)**: API construída com NestJS, usando Postgres via Docker.
 - **Frontend (`CodeConnect-FrontEnd`)**: Aplicação web em React + Vite que consome essa API.
 
 ### Estrutura de pastas
 
-- `4870--api-com-docker/` → código da API (NestJS, Prisma, Docker).
+- `CodeConnect-BackEnd/` → código da API (NestJS, Prisma, Docker).
 - `CodeConnect-FrontEnd/` → código do front-end (React, Vite, React Router).
 
 ---
@@ -20,12 +20,12 @@ Este repositório contém **dois projetos**:
 
 ---
 
-## Backend – 4870--api-com-docker
+## Backend – CodeConnect-BackEnd
 
 Entre na pasta do backend:
 
 ```bash
-cd 4870--api-com-docker
+cd CodeConnect-BackEnd
 ```
 
 ### Variáveis de ambiente
@@ -98,7 +98,7 @@ VITE_API_URL="http://localhost:3000"
 
 ## Scripts úteis
 
-### Backend (`4870--api-com-docker`)
+### Backend (`CodeConnect-BackEnd`)
 
 - `npm run start:dev` – inicia a API em modo desenvolvimento (watch).
 - `npm run build` – build da aplicação NestJS.
@@ -114,7 +114,7 @@ VITE_API_URL="http://localhost:3000"
 
 ## Como versionar no Git / enviar para o GitHub
 
-1. Confirme que o arquivo `.gitignore` está na **raiz** deste diretório (mesmo nível de `4870--api-com-docker` e `CodeConnect-FrontEnd`).
+1. Confirme que o arquivo `.gitignore` está na **raiz** deste diretório (mesmo nível de `CodeConnect-BackEnd` e `CodeConnect-FrontEnd`).
 2. No terminal, na raiz do projeto, rode:
 
 ```bash

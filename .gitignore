@@ -54,10 +54,10 @@ Thumbs.db
 ############################
 # Projetos específicos     #
 ############################
-# Backend NestJS (4870--api-com-docker)
-4870--api-com-docker/node_modules/
-4870--api-com-docker/dist/
-4870--api-com-docker/coverage/
+# Backend NestJS (CodeConnect-BackEnd)
+CodeConnect-BackEnd/node_modules/
+CodeConnect-BackEnd/dist/
+CodeConnect-BackEnd/coverage/
 
 # Frontend Vite React (CodeConnect-FrontEnd)
 CodeConnect-FrontEnd/node_modules/
