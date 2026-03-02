@@ -113,7 +113,3 @@ VITE_API_URL="http://localhost:3000"
 ---
 
 
-```
-
-Substitua `<URL_DO_SEU_REPOSITORIO>` pela URL do repositório que você criou no GitHub.
-
