@@ -1,0 +1,65 @@
+############################
+# Node / JavaScript geral  #
+############################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+############################
+# Logs e cobertura         #
+############################
+logs/
+*.log
+lerna-debug.log*
+coverage/
+*.lcov
+
+############################
+# Compilados / builds      #
+############################
+dist/
+build/
+.turbo/
+.parcel-cache/
+.cache/
+
+############################
+# Ambiente / variáveis     #
+############################
+.env
+.env.local
+.env.*.local
+
+############################
+# Docker                   #
+############################
+docker-data/
+*.pid
+
+############################
+# IDE / SO                 #
+############################
+.vscode/
+.idea/
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+############################
+# Projetos específicos     #
+############################
+# Backend NestJS (4870--api-com-docker)
+4870--api-com-docker/node_modules/
+4870--api-com-docker/dist/
+4870--api-com-docker/coverage/
+
+# Frontend Vite React (CodeConnect-FrontEnd)
+CodeConnect-FrontEnd/node_modules/
+CodeConnect-FrontEnd/dist/
+
